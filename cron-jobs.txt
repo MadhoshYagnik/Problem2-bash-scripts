@@ -1,0 +1,10 @@
+#s3 backup cron job, backups the downloads folder to an AWS S3 bucket everyday at 12pm noon
+
+0 12 * * * /home/madhosh-yagnik/backuptos3.sh >> /home/madhosh-yagnik/s3backuplog.log 2>&1
+
+
+
+#cron job for system health monitoring script
+
+* * * * * /home/madhosh-yagnik/systemMonitoring.sh > /home/madhosh-yagnik/system-monitoring.log 2>&1
+

@@ -1,0 +1,4 @@
+ALERT: CPU usage is high: 4.1%
+ALERT: Memory usage is high: 18.00%
+ALERT: Disk usage is high: 7%
+ALERT: Number of running processes is high: 418
