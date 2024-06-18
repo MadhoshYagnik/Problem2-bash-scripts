@@ -65,8 +65,9 @@ ALERT: Number of running processes is high: 419
 
 # Bash Backup to S3 Script
 
-Please find the two attached .png files for proof of concept. backup script s3 poc.png and backup script s3 poc 2.png  
-This Bash script automates the process of backing up files from a local directory to an Amazon S3 bucket.
+![s3-backup-script-poc](https://github.com/MadhoshYagnik/Problem2-bash-scripts/blob/main/backup%20script%20s3%20poc.png "s3-backup-script-poc")
+
+![s3-backup-script-poc-2](https://github.com/MadhoshYagnik/Problem2-bash-scripts/blob/main/backup%20script%20s3%20poc%202.png "s3-backup-script-poc 2")
 
 ## Features
 
