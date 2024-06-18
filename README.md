@@ -1,4 +1,3 @@
-```markdown
 # System Health Monitoring Script
 
 This Bash script monitors system health by checking CPU usage, memory usage, disk space, and the number of running processes. If any of these metrics exceed predefined thresholds, an alert is generated in the logs.
@@ -66,6 +65,7 @@ ALERT: Number of running processes is high: 419
 
 # Bash Backup to S3 Script
 
+Please find the two attached .png files for proof of concept. backup script s3 poc.png and backup script s3 poc 2.png  
 This Bash script automates the process of backing up files from a local directory to an Amazon S3 bucket.
 
 ## Features
@@ -121,4 +121,3 @@ This cron job runs the `backup_to_s3.sh` script daily at 12:00 PM and appends ou
 
 - Ensure the script (`backup_to_s3.sh`) has execute permissions set (`chmod +x backup_to_s3.sh`).
 - Regularly monitor S3 usage and adjust retention policies and storage tiers as needed.
-```
